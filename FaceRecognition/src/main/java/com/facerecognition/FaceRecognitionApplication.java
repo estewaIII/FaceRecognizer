@@ -13,7 +13,8 @@ public class FaceRecognitionApplication {
 
         String target = "honestAbe.jpg";
         String source = "honestAbe2.jpg";
-        CompareFaces.compareTwoImages(target,source);
+        String source1 ="honestAlbert.jpg";
+        CompareFaces.compareThreeImages(target,source,source1);
         //System.out.println(CompareFaces.compareTwoImages(target,source));
 
     }

@@ -17,28 +17,44 @@ import java.util.List;
 public class CompareFaces {
 
 
-    public static CompareFacesResult compareTwoImages(String targetImage, String sourceImage) {
+    public static CompareFacesResult compareThreeImages(String targetImage, String sourceImage, String sourceImage1) {
         String clientRegion = "us-east-2";
         AmazonRekognition client = AmazonRekognitionClientBuilder.standard().withRegion(clientRegion).withCredentials(new ProfileCredentialsProvider()).build();
         CompareFacesRequest request = new CompareFacesRequest()
                 .withSourceImage(new Image().withS3Object(new S3Object().withBucket("facething").withName(targetImage)))
                 .withTargetImage(new Image().withS3Object(new S3Object().withBucket("facething").withName(sourceImage))).withSimilarityThreshold(0f);
         CompareFacesResult response = client.compareFaces(request);
-        showSimilarity(response,targetImage,sourceImage);
+        AmazonRekognition client1 = AmazonRekognitionClientBuilder.standard().withRegion(clientRegion).withCredentials(new ProfileCredentialsProvider()).build();
+        CompareFacesRequest request1 = new CompareFacesRequest()
+                .withSourceImage(new Image().withS3Object(new S3Object().withBucket("facething").withName(targetImage)))
+                .withTargetImage(new Image().withS3Object(new S3Object().withBucket("facething").withName(sourceImage1))).withSimilarityThreshold(0f);
+        CompareFacesResult response1 = client1.compareFaces(request1);
+        System.out.println(response1);
+        showSimilarity(response,targetImage,sourceImage,response1, sourceImage1);
         return response;
     }
 
-    public static void showSimilarity(CompareFacesResult response, String target,String source){
+    public static void showSimilarity(CompareFacesResult response, String target,String source,CompareFacesResult response1, String source1){
         List<CompareFacesMatch> lists = response.getFaceMatches();
+        List<CompareFacesMatch> lists1 = response1.getFaceMatches();
         if (!lists.isEmpty()) {
             for (CompareFacesMatch label : lists) {
-               String output = label.getSimilarity().toString();
+               String similarity = label.getSimilarity().toString();
                 System.out.println("------------");
-                //System.out.println(label.getFace() + ": Similarity is " + label.getSimilarity().toString());
-                System.out.println("Photo 1 " + target + " and photo 2 " + source + " have a similarity score of " + label.getSimilarity().toString());
+                System.out.println("Photo 1 " + target + " and photo 2 " + source + " have a similarity score of " + similarity);
+
             }
         } else {
-            System.out.println("Faces Does not match");
+            System.out.println("There was an error with the images");
+        }
+        if (!lists1.isEmpty()) {
+            for (CompareFacesMatch label1 : lists1) {
+                String similarity1 = label1.getSimilarity().toString();
+                System.out.println("------------");
+                System.out.println("Photo 1 " + target + " and photo 3 " + source1 + " have a similarity score of " + similarity1);
+            }
+        } else {
+            System.out.println("There was an error with the images");
         }
 }
 

@@ -2,9 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a766618-932f-41f7-99ac-665a04983a70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../PracticeCode/src/PracticeCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeCode/src/PracticeCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project -1/src/com/bank/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project -1/src/com/bank/ui/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_1/src/main/java/com/ers/liberation/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_1/src/main/java/com/ers/liberation/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/FaceRecognition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/FaceRecognition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/src/main/java/com/facerecognition/FaceRecognitionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/src/main/java/com/facerecognition/controllers/CompareFaceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/src/main/java/com/facerecognition/entities/SourceImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/src/main/java/com/facerecognition/entities/TargetImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/src/main/java/com/facerecognition/services/CompareFaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/src/main/resources/credentials" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/target/classes/com/facerecognition/FaceRecognitionApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/target/classes/com/facerecognition/controllers/CompareFaceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/target/classes/com/facerecognition/entities/SourceImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/target/classes/com/facerecognition/entities/TargetImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/target/classes/com/facerecognition/services/CompareFaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FaceRecognition/target/classes/credentials" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facerecognition/FaceRecognitionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facerecognition/FaceRecognitionApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facerecognition/services/CompareFaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facerecognition/services/CompareFaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/credentials" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/facerecognition/FaceRecognitionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/facerecognition/FaceRecognitionApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/facerecognition/services/CompareFaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/facerecognition/services/CompareFaces.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +48,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ZsLTehui6eQGwve84Rgkz5kG2j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,6 +59,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="FaceRecognitionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -93,22 +124,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585689505333" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585752291401">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585756387615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585752291401" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585752291401">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585756387615" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585756387615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585752291401" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585752291401">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585756387615" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585756387615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585752291401" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585752291401">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585756387615" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585756387615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585752291401" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585756387615" />
     <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585701115078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
