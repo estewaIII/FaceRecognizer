@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: FaceRecogition
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+  cloud:
+    config:
+      uri: http://localhost:9999
